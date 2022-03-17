@@ -1,0 +1,29 @@
+npx create-react-app cash-in
+
+expo install react-native-gesture-handler@~1.6.0
+expo install react-native-reanimated@~1.7.0
+expo install @react-native-community/masked-view@~0.1.6
+yarn add @react-navigation/stack
+yarn add react-native-elements
+
+---Para instalar el navigator
+yarn add @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+yarn add @react-navigation/native-stack
+yarn add @react-navigation/bottom-tabs
+
+------FIREBASE
+expo install firebase
+//yarn add firebase
+//yarn add @react-native-firebase/app
+//yarn add @react-native-firebase/firestore
+
+expo install @react-native-async-storage/async-storage
+npx expo-codemod sdk41-async-storage './**/*'
+
+//List
+yarn add react-native-paper
+yarn add @react-native-community/checkbox
+
+COMMAND TO CREATE A FUNCTION
+rnsf
